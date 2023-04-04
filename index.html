@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <title>Modul JavaScript</title>
+  </head>
+  <body>
+    <header>
+      <section id="home" class="navigation">
+        <div class="container">
+          <div class="box-navigation">
+            <div class="box">
+              <h1>Queen's Catering</h1>
+            </div>
+            <div class="box menu-navigation">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu Andalan</a></li>
+                <li><a href="#mainmenu">Menu</a></li>
+                <li><a href="#pesan">Pesan Sekarang</a></li>
+              </ul>
+            </div>
+            <div class="box menu-navigation">
+              <i class="fas fa-bars fa-2x menu-bar" style="color: aliceblue"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+
+      <!-- content -->
+      <section class="hero">
+        <h1>Welcome to Quen's Catering</h1>
+      </section>
+      <!--  -->
+    </header>
+  </section>
+
+    <!-- about -->
+    <section id="menu" class="about">
+      <div class="container">
+        <div class="box-about">
+          <div class="box">
+            <h1>Populer Menu</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste iusto sapiente corporis, porro voluptatum eligendi neque rem eveniet provident, laboriosam voluptatem laborum aliquam. Quia ex optio a non, ullam minus.</p>
+          </div>
+          <div class="box">
+            <img src="img/klepon.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- famous -->
+    <section id="mainmenu" class="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box">
+            <img src="img/naspad.jpg" alt="" />
+            <h1>Nasi Padang</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque tenetur nisi at tempore nihil accusantium, voluptatibus, eos eum doloribus repellat blanditiis delectus doloremque perspiciatis non quos facere labore alias quo.
+            </p>
+          </div>
+          <div class="box">
+            <img src="img/klepon.jpg" alt="" />
+            <h1>Green Balls Sweet</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque tenetur nisi at tempore nihil accusantium, voluptatibus, eos eum doloribus repellat blanditiis delectus doloremque perspiciatis non quos facere labore alias quo.
+            </p>
+          </div>
+          <div class="box">
+            <img src="img/lumpia.jpg" alt="" />
+            <h1>Lumpia Rolls</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque tenetur nisi at tempore nihil accusantium, voluptatibus, eos eum doloribus repellat blanditiis delectus doloremque perspiciatis non quos facere labore alias quo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- contact -->
+    <section id="pesan" class="contact">
+      <div class="container">
+        <div class="box-contact">
+          <h1>Contact</h1>
+          <form action="">
+            <table>
+              <tr>
+                <td><label for="nama">Nama</label></td>
+                <td>
+                  <input type="text" name="nama" placeholder="masukan nama..." />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td>
+                  <input type="email" name="email" placeholder="masukan email..." />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="pesan">Pesan</label></td>
+                <td>
+                  <textarea id="pesan" cols="60" rows="10" name="pesan" placeholder="masukan pesan..."></textarea>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- footer -->
+    <footer>
+      <p>&copy; tugas praktikum</p>
+    </footer>
+    <script src="script.js"></script>
+    <div class="atas" onclick="keAtas()">👆🏼</div>
+    <script>
+        const keAtas =() => {
+            return location.href="#home"
+        }
+    </script>
+  </body>
+</html>
